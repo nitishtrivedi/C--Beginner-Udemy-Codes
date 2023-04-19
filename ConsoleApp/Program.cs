@@ -13,8 +13,6 @@ namespace ConsoleApp
             //Declare the below if Methods from Methods Class needs to be run
             //Methods methods = new Methods();
 
-            var ex = new Ex3();
-            ex.FaceBookExercise();
         }
     }
 
