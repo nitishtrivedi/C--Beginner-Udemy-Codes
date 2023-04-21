@@ -36,5 +36,41 @@ namespace ConsoleApp
 
 
         }
+
+        public void StringsMethod2()
+        {
+            var fullName = "Nitish Trivedi ";
+
+            //Trim method
+            Console.WriteLine("Trim: '{0}' " , fullName.Trim());
+
+            //ToUpper
+            Console.WriteLine("ToUpper: " + fullName.Trim().ToUpper());
+
+            //Retrieve First and last name using IndexOf Method
+            var index = fullName.IndexOf(" ");
+            var fname = fullName.Substring(0, index);
+            var lname = fullName.Substring(index + 1);
+
+            Console.WriteLine("FirstName: " +  fname);
+            Console.WriteLine("LastName: " +  lname);
+
+            //Same using split method
+            var names = fullName.Split(" ");
+
+            Console.WriteLine("FirstName: " + names[0]);
+            Console.WriteLine("LastName: " + names[1]);
+
+
+            //Replace method
+            Console.WriteLine("Replace Nitish with Nits result: " + fullName.Replace("Nitish", "Nits"));
+
+
+
+
+        }
+
+        
+
     }
 }
