@@ -12,8 +12,8 @@ namespace ConsoleApp
         {
             //Declare the below if Methods from Methods Class needs to be run
             //Methods methods = new Methods();
-            var ex = new Ex4();
-            ex.Vowels();
+            var ex = new Ex5();
+            ex.LongestWord();
         }
     }
 
